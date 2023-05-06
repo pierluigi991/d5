@@ -8,7 +8,7 @@ public class MediaPlayer {
 	static int luminosita;
 	static Scanner in = new Scanner(System.in);
 
-    //Main
+   
 	public static void main(String[] args) {
 		MultiMediaElement[] arr = new MultiMediaElement[5];
 

@@ -2,11 +2,11 @@ package MultiMediaPlayer;
 
 public class Video extends Registrazione{
 
-	//Properties 
+	
 	
 	private int luminosita;
 	
-    //Constructors
+    
 	
 	public Video(String title) {
 		super(title);
@@ -16,7 +16,7 @@ public class Video extends Registrazione{
 		super( title, duration, volume);
 		this.luminosita = luminosita;
 	}
-    //Methods
+   
 	public int aumentaLuminosita() {
 		return this.luminosita--;
 	}
